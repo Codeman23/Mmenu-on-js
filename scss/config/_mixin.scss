@@ -1,0 +1,35 @@
+// circle
+
+@mixin circle ($width, $color) {
+  width: $width;
+  height: $width;
+  border-radius: $width/2;
+  background: $color;
+}
+
+
+// placeholder
+
+@mixin placeholder($color: #000000) {
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+  &:-moz-placeholder {
+    color: $color;
+  }
+  &::-moz-placeholder {
+    color: $color;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+}
+
+//services bckgr
+
+/*@mixin background($color) {
+  background: ($color);
+  &:hover{
+    background: darken($color,6%);
+  }
+}*/

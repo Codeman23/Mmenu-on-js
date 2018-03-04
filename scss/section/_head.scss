@@ -1,0 +1,13 @@
+
+.head__wrap {
+  background: $green;
+  height: rem(130px);
+  width: 100%;
+  position: relative;
+  @include laptop {
+    //height: rem(130px);
+  }
+  @include tablets {
+    height: rem(74px);
+  }
+}
